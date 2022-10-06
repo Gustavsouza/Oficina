@@ -12,6 +12,7 @@ body{
 header{
     min-height: 15em;
     /* background-color: aqua; */
+    overflow-x:hidden;
 }
 
 #principal{
