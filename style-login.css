@@ -75,7 +75,7 @@ header{
     color: white;
     cursor: pointer;
     font-family: 'DM Sans', sans-serif;
-    font-size: 1.1em;
+    font-size: 0.8em;
   
 }
 a{
@@ -138,6 +138,19 @@ input::placeholder{
         display: flex;
         padding-bottom: 3%;
     
+    }
+    #botao{
+        margin: 0 auto;
+        padding: 0.5vh 5.9vw;
+        margin-top: 2vh;
+        background-color:#ff4f63;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        cursor: pointer;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 1.0em;
+      
     }
 
 }
