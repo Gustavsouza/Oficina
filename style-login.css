@@ -5,6 +5,8 @@
 }
 body{
     height: 100%;
+    overflow-x:hidden;
+    overflow-y:hidden;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@0;1&display=swap');
@@ -12,8 +14,7 @@ body{
 header{
     min-height: 15em;
     /* background-color: aqua; */
-    overflow-x:hidden;
-    overflow-y:hidden;
+
 }
 
 #principal{
