@@ -141,7 +141,7 @@ input::placeholder{
     }
     #botao{
         margin: 0 auto;
-        padding: 0.5vh 5.9vw;
+        padding: 0.5vh 7.9vw;
         margin-top: 2vh;
         background-color:#ff4f63;
         border: none;
@@ -150,6 +150,7 @@ input::placeholder{
         cursor: pointer;
         font-family: 'DM Sans', sans-serif;
         font-size: 1.0em;
+
       
     }
 
