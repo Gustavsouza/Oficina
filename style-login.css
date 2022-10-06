@@ -10,7 +10,7 @@ body{
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@0;1&display=swap');
 
 header{
-    min-height: 15em;
+    min-height: 12em;
     /* background-color: aqua; */
 }
 
@@ -80,6 +80,9 @@ header{
 }
 a{
     text-decoration: none;
+    color: aliceblue;
+    padding: 4px;
+    cursor:grab;
 }
 footer{
     min-height: 15em;
