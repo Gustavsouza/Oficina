@@ -1,0 +1,162 @@
+
+*{
+    margin: 0px;
+
+}
+body{
+    height: 100%;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@0;1&display=swap');
+
+header{
+    min-height: 15em;
+    /* background-color: aqua; */
+
+}
+
+#principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /*Divindo em 2 partes*/
+    flex-wrap: wrap; /*Deixando quebrar linha*/
+    margin: 0 auto; /*Alinhamento ao centro*/
+    align-items: center;/*Alinhamento horizontal*/
+    padding: 30px;
+    margin-top: 3%;
+    min-height: 450px;
+}
+/* 
+.imagem-login{
+    margin: 0 auto;
+    display: flex;
+    /* background-color: #ff4f63; */
+    /* box-shadow: -1px 1px 3px rgba(17, 17, 17, 0.616);
+    border-radius: 300px;
+}
+    */
+
+.imagem-login > picture > img{
+    max-width: 100%; 
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 3%;
+
+}
+.cadastro-text{
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    color: red;
+    font-size: 2rem;
+    font-family: 'DM Sans';
+
+}
+.Form{
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    padding: 20px;
+   
+}
+.form-submit{
+    /* scale: 1.2; */
+    margin-top: 30px;
+}
+.form-submit > span, button {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#botao{
+    margin: 0 auto;
+    padding: 0.5vh 2.5vw;
+    margin-top: 2vh;
+    background-color:#ff4f63;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8em;
+  
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 4px;
+    cursor:grab;
+}
+footer{
+    min-height: 15em;
+    /* background-color: aqua; */
+    width: 100%;
+    /* height: 5px; */
+    margin: 0 auto;
+    position: fixed;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    background-color: #9f9e9e80;
+    border:none;
+    border-radius: 20px;
+    height: 1.3rem;
+    width:12.8rem;
+    padding: 10px;
+    margin-top:0.8rem;
+    margin-left: 10px;
+}
+
+input::placeholder{
+    color: aliceblue;
+    text-align: start;
+}
+@media (max-width:600px){
+    #principal{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    .login-text{
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        color: red;
+        font-size: 2.5rem;
+        font-family: 'DM Sans'; 
+    
+    }
+     .form-submit{
+        margin-top: 15px;
+    }
+    header{
+    min-height: 5em;
+    /* background-color: aqua; */
+    }
+    .imagem-login > picture > img{
+        max-width: 70%; 
+        margin: 0 auto;
+        display: flex;
+        padding-bottom: 3%;
+    
+    }
+    #botao{
+        margin: 0 auto;
+        padding: 0.5vh 7.9vw;
+        margin-top: 2vh;
+        background-color:#ff4f63;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        cursor: pointer;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 1.0em;
+
+      
+    }
+
+}
