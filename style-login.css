@@ -10,7 +10,7 @@ body{
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@0;1&display=swap');
 
 header{
-    min-height: 10em;
+    min-height: 15em;
     /* background-color: aqua; */
 }
 
@@ -115,6 +115,10 @@ input::placeholder{
     }
      .form-submit{
         margin-top: 15px;
+    }
+    header{
+        min-height: 10em;
+        /* background-color: aqua; */
     }
 
 }
