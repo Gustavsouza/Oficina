@@ -10,7 +10,7 @@ body{
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@0;1&display=swap');
 
 header{
-    min-height: 15em;
+    min-height: 10em;
     /* background-color: aqua; */
 }
 
@@ -83,10 +83,6 @@ footer{
     align-items: center;
     justify-content: center;
 }
-
-footer > p{
-    padding-bottom: 30px;
- }
 input{
     background-color: #9f9e9e;
     border:none;
@@ -120,6 +116,5 @@ input::placeholder{
      .form-submit{
         margin-top: 15px;
     }
-
 
 }
