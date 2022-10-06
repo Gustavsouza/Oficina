@@ -129,7 +129,7 @@ input::placeholder{
         margin-top: 15px;
     }
     header{
-    min-height: 8em;
+    min-height: 5em;
     /* background-color: aqua; */
     }
     .imagem-login > picture > img{
