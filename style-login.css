@@ -117,8 +117,8 @@ input::placeholder{
         margin-top: 15px;
     }
     header{
-        min-height: 10em;
-        /* background-color: aqua; */
-    }
+    min-height: 10em;
+    /* background-color: aqua; */
+}
 
 }
