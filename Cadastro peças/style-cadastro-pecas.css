@@ -126,7 +126,7 @@ input::placeholder{
         margin: 0 auto;
         padding-bottom: 20px;
         color: red;
-        font-size: 2.4rem;
+        font-size: 2.0rem;
         font-family: 'DM Sans'; 
     
     }
@@ -134,14 +134,14 @@ input::placeholder{
         margin-top: 15px;
     }
     header{
-    min-height: 1em;
+        min-height: 1em;
     /* background-color: aqua; */
     }
     .imagem-login > picture > img{
         max-width: 70%; 
         margin: 0 auto;
         display: flex;
-        padding-bottom: 3%;
+        padding-bottom: 2%;
     
     }
     #botao{
