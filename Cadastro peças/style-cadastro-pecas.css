@@ -24,8 +24,7 @@ header{
     margin: 0 auto; /*Alinhamento ao centro*/
     align-items: center;/*Alinhamento horizontal*/
     padding: 30px;
-    margin-top: 3%;
-    min-height: 0 auto;
+    /* margin-top: 3%; */
 }
 /* 
 .imagem-login{
