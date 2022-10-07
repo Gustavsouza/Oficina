@@ -120,6 +120,7 @@ input::placeholder{
         grid-template-columns: 1fr;
         margin: 0 auto;
         padding-bottom: 30px;
+        align-items: center;
     }
     .login-text{
         text-align: center;
