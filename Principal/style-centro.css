@@ -1,0 +1,39 @@
+#container-principal{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+}
+
+.container-itens{
+    flex: 1 1 500px;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.425);
+    margin-top: 3%;
+    margin-right: 2%;
+    margin-left: 1%;
+
+}
+
+@media(max-width:750px){
+    #container-principal{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.0rem;
+    }
+    .container-itens > span{
+        display: block;
+        padding-left: 20px;
+    }
+    .container-itens{
+        flex: 1 1 200px;
+        border: 1px solid rgba(0, 0, 0, 0.226);
+        box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.425);
+
+
+    }
+    .container-itens > img{
+        display: block;
+        max-width: 30%;
+      
+    }
+}
