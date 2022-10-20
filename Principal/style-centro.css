@@ -2,16 +2,39 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1.6rem;
+    max-width: 70%;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .container-itens{
-    flex: 1 1 500px;
+    flex: 1 1 200px;
     border: 1px solid rgba(0, 0, 0, 0.226);
     box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.425);
     margin-top: 3%;
     margin-right: 2%;
     margin-left: 1%;
+    text-align: center;
+    max-width: 300px;
+    width: 50%;
+}
 
+body > div > ul > li {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25rem;
+  }
+
+  .container-itens:hover{
+    background-color: #f71a34a8;
+    color: white;
+}
+.container-itens > a > span{
+    font-family: monospace;
+}
+.container-itens > a > span:hover{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
 }
 
 @media(max-width:750px){

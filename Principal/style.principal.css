@@ -51,6 +51,10 @@ ul > li > a{
 
 }
 
+#container-principal > div > a{
+    text-decoration: none;
+}
+
 #btn-mobile{
     display: none;
 }
@@ -114,5 +118,21 @@ ul > li > a{
     #nav.active #hamburguer::after{
         transform: rotate(-135deg);
         top: -7px;
+    }
+    #container-principal > div > a > span{
+        display: block;
+        text-align: center;
+    }
+    .container-itens{
+        min-width: 100%;
+    }
+    .container-itens:hover{
+        min-width: 100%;
+        background-color: #f71a34a8;
+        color: white;
+    }
+    .container-itens > a > span:hover{
+
+        color: white;
     }
 }
