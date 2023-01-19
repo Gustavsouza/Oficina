@@ -48,9 +48,10 @@ header{
     text-align: center;
     margin: 0 auto;
     padding-bottom: 20px;
-    color: red;
+    color: rgb(252, 8, 8);
     font-size: 3rem;
     font-family: 'DM Sans';
+
 
 }
 .Form-login{
